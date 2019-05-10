@@ -6,11 +6,11 @@
 * Here are some results:
 <center>
 	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/orange2white1.png" height = 200>
-	Transfer dog images from hair color of <font color="orange"> orange to <color/white> white
+	> Transfer dog images from hair color of <font color="orange"> orange to <color/white> white
 </center>
 <center>
 	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/white2orange1.png" height = 200>
-	Transfer dog images from hair color of <color/orange> white to <color/white> orange
+	> Transfer dog images from hair color of <color/orange> white to <color/white> orange
 </center>
 	
 ## Network Structure
@@ -24,4 +24,5 @@
 <center>
 	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/proposedFramework-2.png" height = 400>
 </center>
+
 > Using segmentation network, an original image I is firstly masked and then resized to 256 x 256. Generator G1 takes resized I and its mask M as input and generates fake image I_0. Generator G2 takes fake image I0 with mask M as input and generates reconstructed image I_c. Generator G2 also takes real image I_0 with mask M as input and generates identical image I_i. Discriminator tries to distinguish I0 from images in domain Y which leads to adversarial loss Ladv. Reconstruction loss L_rec measures the pixel level distance between original image I and reconstructed one I_c by L1 norm. Identity loss L_idt measures the pixel level distance between original image I and identical one I_i by L1 norm. 
