@@ -8,13 +8,13 @@
 	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/orange2white1.png" height = 200>	
 </center>
 
-> Transfer dog images from hair color of <font color="orange"> orange to <color/white> white
+> Transfer dog images from hair color of <font color="orange"> orange to white
 	
 <center>
 	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/white2orange1.png" height = 200>
 </center>
 
-> Transfer dog images from hair color of <color/orange> white to <color/white> orange
+> Transfer dog images from hair color of white to orange
 	
 ## Network Structure
 * Here is the schematic diagram of our method:
