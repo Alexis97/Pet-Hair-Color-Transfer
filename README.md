@@ -5,13 +5,16 @@
 * The train dataset is gathered from ImageNet and Google, but it is unaviliable to publish now. 
 * Here are some results:
 <center>
-	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/orange2white1.png" height = 200>
-	> Transfer dog images from hair color of <font color="orange"> orange to <color/white> white
+	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/orange2white1.png" height = 200>	
 </center>
+
+> Transfer dog images from hair color of <font color="orange"> orange to <color/white> white
+	
 <center>
 	<img src="https://github.com/Alexis97/Pet-Hair-Color-Transfer/blob/master/demos/white2orange1.png" height = 200>
-	> Transfer dog images from hair color of <color/orange> white to <color/white> orange
 </center>
+
+> Transfer dog images from hair color of <color/orange> white to <color/white> orange
 	
 ## Network Structure
 * Here is the schematic diagram of our method:
